@@ -7,47 +7,51 @@
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
-        <section>
-            <div>
-            <input type="text" readonly>
-            </div>
-        </section>
 
-        <section>
-            <div>
-                <button>C</button>
-                <button>(</button>
-                <button>)</button>
-                <button>÷</button>
-            </div>
-
-            <div>
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button>×</button>
-            </div>
-
-            <div>
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button>-</button>
-            </div>
-
-            <div>
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>+</button>
-            </div>
-
-            <div>
-                <button>0</button>
-                <button>.</button>
-                <button>=</button>
-            </div>
+        <section id="calculator" class="glass">
             
+            <section>
+                <div>
+                    <input id="screen" type="text" readonly>
+                </div>
+            </section>
+                        
+            <section id="buttons" class="glass">
+                <div>
+                    <button class="btn-operator">C</button>
+                    <button class="btn-operator">(</button>
+                    <button class="btn-operator">)</button>
+                    <button class="btn-operator">÷</button>
+                </div>
+
+                <div>
+                    <button>7</button>
+                    <button>8</button>
+                    <button>9</button>
+                    <button class="btn-operator">×</button>
+                </div>
+
+                <div>
+                    <button>4</button>
+                    <button>5</button>
+                    <button>6</button>
+                    <button class="btn-operator">-</button>
+                </div>
+
+                <div>
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <button class="btn-operator">+</button>
+                </div>
+
+                <div>
+                    <button class="btn-zero">0</button>
+                    <button>.</button>
+                    <button class="btn-operator">=</button>
+                </div>
+            </section>
+
         </section>
     </body>
 </html>
