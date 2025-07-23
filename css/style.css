@@ -3,17 +3,18 @@
     padding: 0px;
 }
 body{
-    background-image: url(../images/pexels-googledeepmind-17486100.jpg);
+    background: linear-gradient(10deg, #000000, rgb(180, 180, 180));
     background-position: center center;
     background-size: cover;
     height: 100vh; 
     display: grid;
     place-items: center;
 }
-#calculator{
+#calculator{    
     border: 0.5px solid rgba(220, 220, 220, 0.514);
-    width: 285px;
-    height: 480px;
+    overflow: hidden;
+    width: 280px;
+    height: 475px;
     background-color: rgba(255, 255, 255, 0.05);   
     border-radius: 15px;
 }
@@ -21,6 +22,8 @@ body{
     backdrop-filter:  blur(5px);
 }
 #screen{
+    color: white;
+    text-align: right;
     font-size: 60px;
     border:none;
     box-sizing: border-box;
@@ -34,7 +37,7 @@ button{
     border: 0.5px solid rgba(220, 220, 220, 0.144);
     background-color: rgba(255, 255, 255, 0.158);
     font-size: 18px;
-    margin: 2px;
+    margin: 3px;
     border-radius: 15px;
     width: 55px;
     height: 55px;
@@ -46,8 +49,9 @@ button{
 }
 button:active{
     background-color: rgba(220, 220, 220, 0.479);
+    color: #134f83;
 }
 .btn-operator{
     border: 0.5px solid #186fbb2c;
-    background-color: #186fbb3a;
+    background-color: #134f833a;
 }
